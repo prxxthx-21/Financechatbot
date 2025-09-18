@@ -5,7 +5,7 @@ import uvicorn
 
 app = FastAPI()
 
-HF_API_TOKEN = "your_huggingface_api_token"
+HF_API_TOKEN = "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"
 MODEL_NAME = "ibm-granite/granite-3.3-2b-instruct"
 client = InferenceClient(model=MODEL_NAME, token=HF_API_TOKEN)
 
